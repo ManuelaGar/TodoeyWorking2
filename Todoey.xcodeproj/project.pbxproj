@@ -13,6 +13,7 @@
 		320A5AEE2096317600262440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320A5AED2096317600262440 /* Assets.xcassets */; };
 		320A5AF12096317600262440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320A5AEF2096317600262440 /* LaunchScreen.storyboard */; };
 		321A7FF520A24EFD00F6761F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 321A7FF320A24EFD00F6761F /* DataModel.xcdatamodeld */; };
+		321A7FF720A2E6CC00F6761F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A7FF620A2E6CC00F6761F /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		320A5AF02096317600262440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		320A5AF22096317600262440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		321A7FF420A24EFD00F6761F /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		321A7FF620A2E6CC00F6761F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				320A5AE82096315900262440 /* TodoListViewController.swift */,
 				321A7FF320A24EFD00F6761F /* DataModel.xcdatamodeld */,
 				320A5AEA2096315900262440 /* Main.storyboard */,
+				321A7FF620A2E6CC00F6761F /* CategoryViewController.swift */,
 				320A5AED2096317600262440 /* Assets.xcassets */,
 				320A5AEF2096317600262440 /* LaunchScreen.storyboard */,
 				320A5AF22096317600262440 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321A7FF720A2E6CC00F6761F /* CategoryViewController.swift in Sources */,
 				320A5AE92096315900262440 /* TodoListViewController.swift in Sources */,
 				321A7FF520A24EFD00F6761F /* DataModel.xcdatamodeld in Sources */,
 				320A5AE72096315900262440 /* AppDelegate.swift in Sources */,
